@@ -2,4 +2,57 @@
 
 :root {
   --primary-color: #007af3;
+  --bg-color: #f2f2f2;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  background-color: var(--bg-color);
+  font-family: 'Poppins';
+}
+
+a {
+  text-decoration: none;
+  color: #444444;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.navbar {
+  background: white;
+  padding: 1rem;
+}
+
+.navbar .logo {
+  font-weight: 700;
+  color: black;
+  font-size: 1.2rem;
+}
+
+.navbar .logo span {
+  color: var(--primary-color);
+}
+
+.navbar .nav {
+  display: none;
+}
+
+.navbar .container {
+  display: flex;
+  place-content: space-between;
+}
+
+.navbar .mobile-menu {
+  cursor: pointer;
 }
