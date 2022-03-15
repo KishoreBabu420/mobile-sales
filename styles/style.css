@@ -29,6 +29,21 @@ ul {
   list-style-type: none;
 }
 
+section {
+  padding: 5rem 2rem;
+}
+
+/* buttons */
+.btn-primary {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 0.8rem 1.5rem;
+  font-size: 1.5rem;
+  border-radius: 80px;
+  font-weight: bold;
+  display: inline-block;
+}
+
 .navbar {
   background: white;
   padding: 1rem;
@@ -55,4 +70,38 @@ ul {
 
 .navbar .mobile-menu {
   cursor: pointer;
+}
+
+/* hero section */
+
+.hero {
+  text-align: center;
+}
+
+.hero .subhead {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: gray;
+  letter-spacing: 0.3rem;
+}
+
+.hero .heading {
+  font-size: 2.5rem;
+  line-height: 1.3;
+  margin: 1.2rem auto;
+}
+
+.hero .link-primary {
+  display: block;
+  margin: 1rem;
+  text-decoration: underline;
+}
+
+.hero .link-primary img {
+  margin-right: 0.5rem;
+}
+
+.hero .hero-img {
+  width: 70%;
+  margin-top: 3rem;
 }
